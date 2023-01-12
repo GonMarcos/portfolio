@@ -1,6 +1,7 @@
 import React from "react";
 import { DiReact, DiNodejsSmall, DiPython } from "react-icons/di";
-import { SiKeras, SiJavascript, SiTensorflow } from "react-icons/si";
+import { SiKeras, SiJavascript, SiTensorflow, SiTypescript, SiCplusplus } from "react-icons/si";
+import {TbBrandNextjs} from "react-icons/tb"
 import "../styles/Skills.css";
 
 const Skills = (props) => {
@@ -39,16 +40,16 @@ const Skills = (props) => {
 
       <div className="Cards">
         <div className="Card">
-          <DiReact size={70} />
-          <p>JavaScript</p>
+          <SiTypescript size={70} />
+          <p>TypeScript</p>
         </div>
         <div className="Card">
-          <SiJavascript size={70} />
-          <p>JavaScript</p>
+          <TbBrandNextjs size={70} />
+          <p>NextJs</p>
         </div>
         <div className="Card">
-          <DiNodejsSmall size={70} />
-          <p>JavaScript</p>
+          <SiCplusplus size={70} />
+          <p>C++</p>
         </div>
       </div>
     </div>

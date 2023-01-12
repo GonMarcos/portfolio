@@ -9,9 +9,9 @@ const Header = (props) => {
     <div className="Header">
       <nav>
         <h2>Portfolio</h2>
-        <div style={{display:"flex",alignItems:"center", gap:"15px"}}>
+        <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
           <button onClick={props.dark}>
-            <BsFillMoonStarsFill size={30}/>
+            <BsFillMoonStarsFill size={30} />
           </button>
           <h2>Resume</h2>
         </div>
@@ -21,9 +21,9 @@ const Header = (props) => {
         <h1>Marcos Gonçalves</h1>
         <h2>Web Developer</h2>
         <p>
-          I'm a Web Developer passionated for technology and everything which
-          surrounds it. I've been developing by myself since 2020 and in my free
-          time i like to deal with Unreal Engening 5 as a hobby.
+          I'm a Web Developer passionate for technology and everything wich
+          surrounds it. I've been developing by myself since 2020 and in my free time
+          I like to deal with Unreal Engine 5 as a hobby.
         </p>
       </div>
 
