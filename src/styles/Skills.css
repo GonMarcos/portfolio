@@ -1,0 +1,27 @@
+.Stack h2 {
+    margin-top: 3rem;
+}
+
+.Stack .Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 530px;
+    justify-content: center;
+
+    gap: 40px;
+    margin-top: 60px;
+
+}
+
+.Stack .Cards .Card {
+    color: var(--text-color);
+    width: 115px;
+    height: 150px;
+    padding: 20px 0;
+    margin-bottom: 3rem;
+    background-color: var(--card-on-color);
+    border-radius: 8px;
+
+    box-shadow: 0 10px 20px , 0 8px 8px var(--shadow-card);
+}
