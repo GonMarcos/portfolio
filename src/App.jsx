@@ -1,7 +1,8 @@
 import react, {useState} from 'react'
+import "./App.css"
 import Header from './components/Header';
 import Skills from './components/Skills'
-import "./App.css"
+import ChatBot from './components/ChatBot';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className={`${darkMode ? "App Dark" : "App"}`}>
       <Header dark={() => setDarkMode(!darkMode)}/>
       <Skills/>
+      <ChatBot/>
     </div>
   )
 }

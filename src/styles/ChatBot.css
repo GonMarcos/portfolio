@@ -1,0 +1,23 @@
+.Chatbot {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Chatbot .button-robot {
+  background: none;
+  color: var(--card-on-color);
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+}
+
+
+
+
+.ChatDisplayOff {
+  display: none;
+}
